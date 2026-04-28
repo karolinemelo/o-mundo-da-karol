@@ -1,15 +1,27 @@
-body {
+HTML, body {
   margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #0f0f0f;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-  text-align: center;
 }
-
+header { 
+   background-color: white;
+    color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0;
+}
 h1 {
   font-weight: 400;
   font-size: 24px;
@@ -34,4 +46,10 @@ button:hover {
   margin-top: 40px;
   font-size: 12px;
   opacity: 0.6;
+}
+footer {
+    background-color: white;
+    float: left;
+    width: 100%;
+    color: black;
 }
