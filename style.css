@@ -1,15 +1,11 @@
-html, body {
+body {
   margin: 0;
   padding-top: 80px;
-  paddyng-bottom: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #0f0f0f;
   color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
-  }
+}
+
 header {
   background-color: white;
   color: black;
@@ -18,7 +14,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
 
   display: flex;
   align-items: center;
@@ -26,10 +21,10 @@ header {
   padding: 0 5%;
   box-sizing: border-box;
 }
+
 #logo {
   width: 80px;
   height: auto;
-  margin-right: auto;
 }
 
 #menu {
