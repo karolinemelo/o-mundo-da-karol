@@ -1,13 +1,9 @@
-HTML, body {
+body {
   margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 80px;
   background: #0f0f0f;
-  color: #ffffff;
+  color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
 }
 header { 
    background-color: white;
@@ -15,20 +11,25 @@ header {
     height: 80px;
     width: 100%;
     position: fixed;
+  top: 0;
     z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-cintent: space-between;
+  padding: 0 5%;
+  box-sizing: border-box;
 }
 #logo {
     width: 80px;
     height: 60px;
-    position: absolute;
-    top: 10px;
-    margin-left: 5%;
+   
 }
 #menu {
-    float: right;
-    margin-right: 5%;
     list-style: none;
-    margin-top: 0;
+    display: felx;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 h1 {
   font-weight: 400;
@@ -60,4 +61,35 @@ footer {
     float: left;
     width: 100%;
     color: black;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  #menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  #logo {
+    width: 60px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
 }
