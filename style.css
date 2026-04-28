@@ -1,5 +1,13 @@
 HTML, body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f0f0f;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 header { 
    background-color: white;
