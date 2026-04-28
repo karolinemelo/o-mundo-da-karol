@@ -1,3 +1,3 @@
-document.getElementById("explorar").addEventListener("click", function() {
-  alert("em breve...");
+document.getElementById("explorar").addEventListener("click", () => {
+  window.location.href = "explorar.html";
 });
